@@ -1,0 +1,8 @@
+{
+  "Description": "lets play sounds",
+  "Name": "Launchpad",
+  "com.example.launchpad.action": {
+    "Name": "Launchpad",
+    "Tooltip": "Press to play a sound!"
+  }
+}
