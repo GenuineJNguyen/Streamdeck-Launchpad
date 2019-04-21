@@ -7,7 +7,7 @@ var timer;
 
 var counterAction = {
 
-    type : "com.elgato.counter.action",
+    type : "com.example.launchpad.action",
 
     onKeyDown : function(context, settings, coordinates, userDesiredState) {
 
@@ -18,7 +18,7 @@ var counterAction = {
 
         keyPressCounter++;
 
-        var audio = new Audio('clap.wav');
+        var audio = new Audio('airhorn.mp3');
         audio.play();
 
         updatedSettings = {};
